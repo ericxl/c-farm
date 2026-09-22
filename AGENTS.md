@@ -1,10 +1,9 @@
 Use scrcpy to play Clash of Clans
 
 # Interactions
-if scrcpy is not launched, use `adb shell wm size 540x1200 && adb shell wm density 210 && open -n ~/Applications/scrcpy.app --args --stay-awake`.
+if scrcpy is not launched, use `adb shell wm size 540x1200 && adb shell wm density 210 && scrcpy --stay-awake`.
     - `wm size 540x1200` + `wm density 210` set the phone's logical display to half resolution, so `adb exec-out screencap -p` returns 1200x540 and `adb shell input tap/swipe` use those same halved coordinates. No coordinate scaling needed.
     - The wm override persists across game restarts; to go back to full res run `adb shell wm size reset && adb shell wm density reset`.
-    - must be launched via a wrapper app in ~/Applications/scrcpy.app, otherwise computer-use tool can't find the window.
 
 use screenshot, click, and drag from adb
 
