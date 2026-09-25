@@ -20,28 +20,13 @@ Currently gold, elixir, and dark elixir are useless (wall are maxed, all builder
     - Destory inferno towers, weaponized THs, Eagle or inferno artiliery, Scattershots, Spell towers, monoliths, crafted defenses.
 
 # Battle
-
-## loot threshold
-Loot threshold should only be considered for high level townhalls. For high level home base townhalls, skip townhalls using the following criteria.
-- None for now
-
-## deployment
-Deploy all troops at a corner (prefer right, left, or top corners, make sure the area is deployable) of the map, including all heroes and spells. Pick a corner closer to the townhall.
-Deploy heroes first, then other troops, then spells. You should deploy eveyrthing in one go, not separate steps. Make sure all troops are actually deployed.
-Also, never deploy troops or spells at the same point!!! No two things should be deploy at the same point!! Everytime you deploy a troop with click, make sure each click is followed by randomized delay between 0.15s-0.2s
-If troop is dragons, spread out the dragons (make sure the deploy point doesn't collide with others)
-Remember to click on the hero icon after deploy to activate the hero skills. For grand warden, activate his skill after 5 seconds (but you should do this in the same step just write a delay for grand warden)
-
-Continously check battle screenshots to see if there are missing deployments, or actions (like hero skills, etc). Don't wait idle or use timer
-
-When battle timer is 1min, usually on the right side of screen there is a 1X button. When this appears you should press it to speed up the battle to use 4X speed.
-- but never write any background watcher that tries to press 1X button because he battle might end early.
-
+Read @battle.md
 
 # Builders
 With low level townhalls you need to build or upgrade buildings or troops and keep all builders busy at all times.
 Prefer using the builder icon on top rather than Shop icon. When upgrading walls, prefer using the builder icon to pick what walls to upgrade (this is so that it is easier to pick which wall to upgrade based on the level )
-- When upgrading walls, prefer to upgrade the lower level walls first
+- When upgrading walls, prefer to upgrade the lower level walls first (that costs lowest resources)
+- Tip: after selecting one wall, use "Upgrade More" button to select more walls of the same level
 When resources support upgrading multiple walls, after tapping on a wall you could utilize "Upgrade More" button when a wall is selected 
 
 # Builder base
@@ -83,3 +68,7 @@ Deprioritize all resource collectors upgrades. Upgrade resource storage only suc
 10. Electro Owl
 11. Yak
 12. LASSI
+
+
+# Other docs
+@clan-games-challenges.md: for completing clan games challenges
