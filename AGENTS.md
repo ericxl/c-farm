@@ -16,8 +16,7 @@ To switch account, press the gear icon, then press the refresh button on the lef
 Our resources are maxed, our objective is to attack bases and complete achivements
 Currently gold, elixir, and dark elixir are useless (wall are maxed, all builders are busy). So goal is to:
 1. Try to advance these achievements:
-    - Win multiplayer battles
-    - Destory inferno towers, weaponized THs, Eagle or inferno artiliery, Scattershots, Spell towers, monoliths, crafted defenses.
+    - Destory ricochet cannons, fire spitters, multi-gear towers.
 
 # Battle
 Read @battle.md

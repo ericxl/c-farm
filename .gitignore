@@ -1,5 +1,8 @@
+.DS_STORE
+
 .venv/
 __pycache__/
 *.pyc
 PinchRunner/build/
 PinchRunner/**/xcuserdata/
+
